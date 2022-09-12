@@ -1,0 +1,32 @@
+{
+  "name": "crypto-ticker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/joy": "^5.0.0-alpha.43",
+    "@mui/material": "^5.10.3",
+    "axios": "^0.27.2",
+    "chart.js": "^3.9.1",
+    "firebase": "^9.9.3",
+    "firebase-functions": "^3.23.0",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "18.2.0",
+    "react-html-parser": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  }
+}

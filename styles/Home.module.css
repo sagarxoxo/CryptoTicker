@@ -1,0 +1,121 @@
+.headSec{
+  background-color: #000;
+  color: #fff;
+  padding: 80px 80px 140px 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  border-radius: 0px 0px  20px 20px;
+  background-image: urL('../public/images/cryptoBackground.jpg');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.headSec h1{
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.cryptoSec{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: -80px ;
+  margin-left: 20%;
+  margin-bottom: 40px;
+  padding: 40px 60px;
+  width: 60%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.serachInp{
+  width: 100%;
+}
+
+.tbSty{
+  margin-top: 20px;
+  box-shadow: none;
+  position: relative;
+}
+
+.tbSty th{
+  font-weight: 900;
+}
+
+.tbSty td{
+  font-weight: 400;
+  padding: 20px;
+  border-bottom: 0px;
+  z-index: 100;
+}
+
+.nameSty{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  float: left;
+}
+
+.inNameSty{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.tableSty{
+  padding: 200px;
+  border-bottom: 1px solid #00000020;
+}
+
+.pagi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+@media (max-width: 780px) {
+  .headSec{
+    padding: 40px 0px;
+    text-align: center;
+  }
+  .headSec h1{
+    font-size: 30px;
+  }
+
+  .cryptoSec{
+    margin-top: -20px ;
+    margin-left: 0%;
+    margin-bottom: 40px;
+    padding: 20px;
+    width: 100%;
+  }
+  .tbSty{
+    margin-top: 10px;
+  }
+  .tbSty td:nth-child(2){
+    position: sticky;
+    position: -webkit-sticky;
+    left: 0;
+    background-color: #fff;
+  }
+
+  .tbSty th:nth-child(2) {
+    position: sticky;
+    position: -webkit-sticky;
+    left: 0;
+    background-color: #fff;
+  }
+  
+  
+  
+}
+

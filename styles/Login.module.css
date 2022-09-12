@@ -1,0 +1,54 @@
+.loginBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 60px;
+}
+
+.loginBox1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.loginBox1 h5{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.loginBox1 span{
+    padding: 10px;
+    text-align: center;
+}
+
+.textF{
+    margin-bottom: 20px;
+}
+
+.loginBox1 .logBtn{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.loginBox1 .logBtn1{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.loginBox1 .logBtn:hover{
+    background-color: rgb(56, 56, 56);
+    color: #fff;
+}
+
+.loginBox1 .logBtn1:hover{
+    background-color: #000;
+    color: #fff;
+}

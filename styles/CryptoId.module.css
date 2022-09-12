@@ -1,0 +1,107 @@
+.sinGC{
+    margin: 100px 120px;
+}
+
+.sinGC h1{
+    font-weight: 600;
+}
+
+.sinGC h6{
+    font-weight: 500;
+    /* background-color: #e6e6e6; */
+    padding: 15px 0px;
+    color: #00000060;
+    border-radius: 5px;
+}
+
+.infoCoin{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.infoCoin .infoCoinSpan{
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80px;
+}
+
+.infoWeb span{
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.infoWeb span a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+}
+
+.infoWeb span:hover{
+    background-color: #dcdcdc;
+}
+
+.coinMark{
+    background-color: #e6e6e6;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.chartContioner{
+    margin: 100px 80px;
+}
+
+.dayBlock{
+    width: auto;
+    padding: 10px;
+}
+
+.dayBlock button{
+    min-width:auto;
+}
+
+.dayBlock button:hover{
+    background-color: #393939;
+    color: #fff;
+ }
+
+ .chartContioner .chartSty{
+    position: relative; 
+    height:500px; 
+    width:100%;
+}
+
+.aTagHigh a{
+    font-weight: 800;
+}
+
+
+ @media (max-width: 780px) {
+    .sinGC{
+        margin: 20px;
+    }
+
+    .chartContioner{
+        margin: 0px;
+    }
+
+    .chartContioner .chartSty{
+        position: relative; 
+        height:250px; 
+        width:100%;
+    }
+    
+    
+    .dayBlock{
+        padding: 20px 0px;
+    }
+
+    .dayBlock button{
+        min-width:auto;
+        padding: 6px 12px;
+    }
+ }

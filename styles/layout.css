@@ -1,0 +1,51 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Navbar*/
+.LogoText{
+    color: #fff; 
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.navbarStyle{
+    padding: 20px 80px;
+    border-bottom: 1px solid #ffffff20;
+}
+
+.curr label{
+    color:#fff;
+    margin-top: -10px;
+}
+
+.curr svg{
+    color:#fff
+}
+
+.curr input{
+    color:#fff;
+}
+
+.curr .MuiFormControl-root .MuiOutlinedInput-root {
+    padding: 0px;
+}
+.footerStyle{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 780px) {
+    .navbarStyle {
+      padding: 10px 0px;
+  }
+  .userSty{
+    display: none;
+  }
+}
